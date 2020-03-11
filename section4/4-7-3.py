@@ -42,5 +42,5 @@ print(df_am.describe())
 #구글 금융 정보 호출
 df_gg=FinanceDataReader.DataReader('VXGOG',start,end)
 print(df_gg.head(10))
-print(df_gg.loc['2020-03-03'])
+print(df_gg.loc['2020-03-0'])
 print(df_gg.describe())
